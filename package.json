@@ -1,0 +1,29 @@
+{
+  "name": "simple-frontend-starter",
+  "version": "1.0.2",
+  "description": "A clean, simple front-end starter",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/*.js src/specs/*.js",
+    "start": "parcel index.html",
+    "build": "rm -f dist/* && parcel build --no-source-maps index.html",
+    "test": "jest specs --watch",
+    "test-ci": "jest specs"
+  },
+  "author": "Brian Gershon",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-transform-runtime": "^7.7.5",
+    "@babel/preset-env": "^7.7.5",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-jest": "^23.1.1",
+    "jest": "^24.9.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.6.3"
+  }
+}
