@@ -1,8 +1,8 @@
-# vanilla-js-minimal
+# svelte-minimal
 
-![Build Status](https://github.com/briangershon/vanilla-js-minimal/workflows/Continuous%20Integration/badge.svg)
+![Build Status](https://github.com/briangershon/svelte-minimal/workflows/Continuous%20Integration/badge.svg)
 
-Vanilla JavaScript starter with minimal dependencies and tools.
+[Svelte](https://svelte.dev/) starter with minimal dependencies and tools.
 
 * Includes a development environment with:
   * Support for es6 modules and hot reloading (via Parcel Bundler)

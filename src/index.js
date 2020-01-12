@@ -1,3 +1,8 @@
-import getMessage from './hello';
+import Hello from './hello.svelte';
 
-document.getElementById('content').innerText = getMessage();
+new Hello({
+  target: document.getElementById('content'),
+  props: {
+    name: 'Brian'
+  }
+});
